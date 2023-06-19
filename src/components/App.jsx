@@ -1,3 +1,6 @@
+import { Routes, Route } from 'react-router-dom';
+import { SharedLayout } from './index';
+
 export const App = () => {
   return (
     <Routes>

@@ -19,6 +19,6 @@ export const AppBar = styled.div`
   align-items: center;
 `;
 
-export const MainSection = styled.main`
-  margin-bottom: 20px;
-`;
+// export const MainSection = styled.main`
+//   margin-bottom: 20px;
+// `;

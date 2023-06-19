@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'components/Container/Container';
-import { AppHeader, AppBar, MainSection } from './SharedLayout.styled.jsx';
+import { AppHeader, AppBar } from './SharedLayout.styled.jsx';
 
 const SharedLayout = () => {
   return (
