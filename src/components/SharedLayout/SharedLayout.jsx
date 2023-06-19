@@ -1,7 +1,8 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Container from 'components/Container/Container';
-import { Logo } from 'components';
-import { AppHeader, AppBar } from './SharedLayout.styled.jsx';
+import { Logo, Navigation } from 'components';
+import { AppHeader, AppBar, MainSection } from './SharedLayout.styled.jsx';
 
 const SharedLayout = () => {
   return (
@@ -10,9 +11,15 @@ const SharedLayout = () => {
         <Container>
           <AppBar>
             <Logo />
+            <Navigation />
           </AppBar>
         </Container>
       </AppHeader>
+      <Container>
+        <MainSection>
+          <Outlet />
+        </MainSection>
+      </Container>
     </>
   );
 };
