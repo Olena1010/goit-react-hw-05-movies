@@ -1,7 +1,7 @@
-import React from 'react';
-import { Outlet,Link } from 'react-router-dom';
-import Container from 'components/Container/Container';
-import { Logo, Navigation } from 'components';
+import { Suspense } from 'react';
+import { Outlet, Link } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+import { Logo, Navigation, Loader, Container } from 'components';
 import {
   AppHeader,
   AppBar,
@@ -22,7 +22,10 @@ const SharedLayout = () => {
       </AppHeader>
       <Container>
         <MainSection>
-          <Outlet />
+          <Suspense fallback={<Loader />}>
+            <Outlet />
+            <Toaster position="top-right" reverseOrder={false} />
+          </Suspense>
         </MainSection>
       </Container>
       <Footer>

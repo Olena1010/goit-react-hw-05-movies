@@ -26,7 +26,7 @@ export const Footer = styled.footer`
   top: 0;
   left: 0;
   position: sticky;
-  z-index: 1100;
+  // z-index: 1100;
   min-height: 64px;
   padding-right: 24px;
   padding-left: 24px;
