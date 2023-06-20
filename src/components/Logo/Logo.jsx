@@ -5,8 +5,8 @@ import { AppName, AppNameExpansion } from './Logo.styled';
 const Logo = () => {
     return (
       <AppName>
-        <NavLink to="/">Filmer</NavLink>
-        <AppNameExpansion>.app</AppNameExpansion>
+        <NavLink to="/">Film</NavLink>
+        <AppNameExpansion>Hub</AppNameExpansion>
       </AppName>
     );
 }

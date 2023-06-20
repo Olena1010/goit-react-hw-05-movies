@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const AppName = styled.span`
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 600;
   margin: 0 50px;
   color: #ffffff;
@@ -9,6 +9,6 @@ export const AppName = styled.span`
 `;
 
 export const AppNameExpansion = styled.span`
-  font-size: 24px;
-  text-shadow: none;
+  // font-size: 40px;
+  // text-shadow: none;
 `;

@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const MovieItem = styled.li`
   overflow: hidden;
+  border-radius: 10px;
   color: #ffffff;
-  background-color: #333333;
+  background-color: #4682b4;
   box-shadow: 0px 1px 3px 0px rgba(237, 70, 47, 0.2),
     0px 1px 1px 0px rgba(237, 70, 47, 0.14),
     0px 2px 1px -1px rgba(237, 70, 47, 0.12);
@@ -36,12 +37,13 @@ export const MovieName = styled.h3`
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
+  text-shadow: -2px 4px 4px rgb(0 0 0 / 80%);
 `;
 
 export const Line = styled.hr`
   width: 172px;
-  border: 1px solid #ed462f;
+  border: 1px solid #f32121;
 `;
 
 export const MovieRelease = styled.span`
