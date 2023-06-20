@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import { AppWrapper } from './Container.styled';
+
+
 const Container = ({ children }) => {
     return <AppWrapper>{children}</AppWrapper>;
 };
