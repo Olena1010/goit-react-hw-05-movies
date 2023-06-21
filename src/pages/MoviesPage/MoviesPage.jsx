@@ -26,7 +26,7 @@ const MoviesPage = () => {
   const [searchQuery, setSearchQuery] = useState(searchParams.get('query'));
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  // const prevSearchQuery = usePrevious(searchQuery);
+//   const prevSearchQuery = usePrevious(searchQuery);
 
   useEffect(() => {
     if (!searchQuery) {
