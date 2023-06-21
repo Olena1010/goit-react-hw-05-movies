@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-// import usePrevious from 'hooks/usePrevious';
+import usePrevious from 'hooks/usePrevious';
 import { fetchSearchMovie } from 'services/moviesAPI';
 
 // import { fetchTrendingMovies } from 'services/moviesAPI';
@@ -26,7 +26,7 @@ const MoviesPage = () => {
   const [searchQuery, setSearchQuery] = useState(searchParams.get('query'));
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-//   const prevSearchQuery = usePrevious(searchQuery);
+  const prevSearchQuery = usePrevious(searchQuery);
 
   useEffect(() => {
     if (!searchQuery) {
@@ -66,10 +66,10 @@ const MoviesPage = () => {
       return;
     }
 
-    // if (prevSearchQuery === searchQuery) {
-    //   notify.showSearchQueryRepeat(searchQuery);
-    //   return;
-    // }
+    if (prevSearchQuery === searchQuery) {
+      notify.showSearchQueryRepeat(searchQuery);
+      return;
+    }
 
     setSearchParams({ query: searchQuery });
     setSearchQuery(searchQuery);
