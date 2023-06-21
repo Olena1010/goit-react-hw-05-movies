@@ -47,7 +47,8 @@ export const Line = styled.hr`
 `;
 
 export const MovieRelease = styled.span`
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 700;
   text-align: center;
 `;
 
@@ -57,5 +58,7 @@ export const MovieRating = styled.span`
 `;
 
 export const VoteNum = styled.div`
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 24px;
+  color: #191970;;
 `;

@@ -1,15 +1,10 @@
 import styled from '@emotion/styled';
 
 export const AppHeader = styled.header`
-  top: 0;
-  left: 0;
-  position: sticky;
+  position: fixed;
   z-index: 1100;
-  min-height: 64px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 15px;
+  width: 100%;
   background: rgba(3, 37, 65);
   box-shadow: 0 10px 10px -5px rgb(70, 130, 180);
 `;
@@ -23,15 +18,8 @@ export const MainSection = styled.main`
   margin-bottom: 20px;
 `;
 export const Footer = styled.footer`
-  top: 0;
-  left: 0;
-  position: sticky;
-  // z-index: 1100;
-  min-height: 64px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 12px;
+  width: 100%;
+  padding: 15px;
   background: rgba(3, 37, 65);
   box-shadow: 1px -10px 10px 0px rgb(70, 130, 180);
   color: #ffffff;

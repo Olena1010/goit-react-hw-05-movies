@@ -40,7 +40,7 @@ const MovieCard = ({ id, poster_path, release_date, title, vote_average }) => {
             {release_date !== 0 ? releaseDate.toLocaleDateString() : 'unknown'}
           </MovieRelease>
           <MovieRating>
-            IMDb Rating:
+            Rating:
             <VoteNum>{vote_average !== 0 ? vote_average : 'unrated'}</VoteNum>
           </MovieRating>
         </InfoWrapper>

@@ -85,7 +85,7 @@ const MoviesPage = () => {
       ) : !isLoading ? (
         <TextWrapper>
           <WelcomeText>
-            All filmmakers are waiting for your search query to show movies.
+            All filmmakers are waiting for your search query to show movies 🍿 🎦
           </WelcomeText>
         </TextWrapper>
       ) : (

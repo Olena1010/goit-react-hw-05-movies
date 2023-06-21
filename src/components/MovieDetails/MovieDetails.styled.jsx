@@ -5,12 +5,12 @@ export const MovieWrapper = styled.div`
 `;
 
 export const MoviePoster = styled.img`
-  width: 300px;
+  width: 340px;
   padding: 20px;
 `;
 
 export const InfoWrapper = styled.div`
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
 `;
@@ -67,6 +67,6 @@ export const MovieHomepage = styled.a`
   margin-top: 30px;
   color: #191970;
   &:hover {
-    color: #1e90ff;
+    color: #800000;
   }
 `;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { IconContext } from 'react-icons';
-import { MdSearch } from 'react-icons/md';
+import { FcSearch } from 'react-icons/fc';
 import {
   QueryForm,
   QueryFormInput,
@@ -35,7 +35,7 @@ const SearchForm = ({ onSubmit }) => {
       />
       <QueryFormBtn type="submit" aria-label="Search movies">
         <IconContext.Provider value={{ size: '2.5em' }}>
-          <MdSearch />
+          <FcSearch />
         </IconContext.Provider>
         <QueryFormBtnLabel>Search</QueryFormBtnLabel>
       </QueryFormBtn>

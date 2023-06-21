@@ -46,7 +46,7 @@ const MovieDetails = ({ movieData }) => {
           {release_date !== 0 ? releaseDate.toLocaleDateString() : 'unknown'}
         </MovieRelease>
         <MovieRating>
-          IMDb Rating:{' '}
+          Rating:{' '}
           <VoteNum>{vote_average !== 0 ? vote_average : 'unrated'}</VoteNum>
         </MovieRating>
         {genres.length > 0 && (
@@ -64,7 +64,7 @@ const MovieDetails = ({ movieData }) => {
         ) : (
           <MovieOverview>Overview is absent.</MovieOverview>
         )}
-        <MovieOverview>{overview}</MovieOverview>
+        {/* <MovieOverview>{overview}</MovieOverview> */}
         {homepage && (
           <MovieHomepage href={homepage} target="_blank">
             {homepage}
