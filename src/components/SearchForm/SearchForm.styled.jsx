@@ -15,13 +15,13 @@ export const QueryForm = styled.form`
   border: 1px solid #b3b1b1;
   box-shadow: 0 8px 6px -6px black;
 
-  @media screen and (min-width: 760px) {
-    width: 500px;
-    margin-top: 0px;
-  }
-  @media screen and (min-width: 1300px) {
-    width: 700px;
-  }
+  // @media screen and (min-width: 760px) {
+  //   width: 500px;
+  //   margin-top: 0px;
+  // }
+  // @media screen and (min-width: 1300px) {
+  //   width: 700px;
+  // }
 `;
 
 export const QueryFormInput = styled.input`
@@ -37,13 +37,13 @@ export const QueryFormInput = styled.input`
   ::placeholder {
     font: inherit;
     font-size: 18px;
-  }
-  @media screen and (min-width: 760px) {
-    width: 500px;
-  }
-  @media screen and (min-width: 1300px) {
-    width: 700px;
-  }
+  // }
+  // @media screen and (min-width: 760px) {
+  //   width: 500px;
+  // }
+  // @media screen and (min-width: 1300px) {
+  //   width: 700px;
+  // }
 `;
 
 export const QueryFormBtn = styled.button`

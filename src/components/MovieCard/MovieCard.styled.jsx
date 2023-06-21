@@ -20,8 +20,8 @@ export const MovieLink = styled(Link)`
 `;
 
 export const MovieImg = styled.img`
-  width: 186.66px;
-  height: 280px;
+  width: 170px;
+  height: 250px;
   object-fit: contain;
 `;
 
@@ -47,14 +47,14 @@ export const Line = styled.hr`
 `;
 
 export const MovieRelease = styled.span`
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  text-align: center;
+  // text-align: center;
 `;
 
 export const MovieRating = styled.span`
   font-size: 16px;
-  text-align: center;
+  // text-align: center;
 `;
 
 export const VoteNum = styled.div`

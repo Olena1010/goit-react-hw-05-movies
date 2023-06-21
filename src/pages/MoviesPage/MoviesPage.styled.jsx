@@ -9,8 +9,12 @@ export const LoaderWrapper = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  width: 720px;
-  margin: 100px auto 0 auto;
+  @media screen and (min-width: 760px) {
+    margin: 100px auto 100px auto;
+  }
+  @media screen and (min-width: 1280px) {
+    margin: 100px auto 250px auto;
+  }
 `;
 
 export const WelcomeText = styled.p`

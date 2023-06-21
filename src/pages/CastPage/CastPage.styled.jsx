@@ -9,11 +9,14 @@ export const LoaderWrapper = styled.div`
 `;
 
 export const CastList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
   padding: 20px;
+  @media screen and (min-width: 760px) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 20px;
+  }
 `;
 
 export const NoCastText = styled.p`
