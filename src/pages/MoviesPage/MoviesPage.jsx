@@ -2,23 +2,13 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import usePrevious from 'hooks/usePrevious';
 import { fetchSearchMovie } from 'services/moviesAPI';
-
-// import { fetchTrendingMovies } from 'services/moviesAPI';
-
 import * as notify from 'utils/notifications';
-
-// import { showSearchResult } from '../../utils/notifications';
-
-// import PageHeading from 'components/PageHeading';
 import {
   PageHeading,
   MoviesGallery,
   Loader,
   SearchForm,
 } from '../../components/index';
-// import SearchForm from 'components/SearchForm';
-// import MoviesGallery from 'components/MoviesGallery';
-// import Loader from 'components/Loader';
 import { LoaderWrapper, TextWrapper, WelcomeText } from './MoviesPage.styled';
 
 const MoviesPage = () => {
@@ -44,8 +34,6 @@ const MoviesPage = () => {
           moviesReset();
           return;
         }
-
-        notify.showSearchResult(total_results);
         setMovies(results);
       })
       .catch(error => {
