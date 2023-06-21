@@ -66,5 +66,5 @@ export const MovieRating = styled.span`
 export const VoteNum = styled.div`
   font-weight: 700;
   font-size: 24px;
-  color: #191970;;
+  color: #ffd700;
 `;

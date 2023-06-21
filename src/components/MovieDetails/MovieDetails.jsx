@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+// import { TfiVideoClapper } from 'react-icons/tfi';
 import {
   MovieWrapper,
   MoviePoster,
@@ -65,8 +66,11 @@ const MovieDetails = ({ movieData }) => {
           <MovieOverview>Overview is absent.</MovieOverview>
         )}
         {homepage && (
-          <MovieHomepage href={homepage} target="_blank">
+          <MovieHomepage
+            
+            href={homepage} target="_blank">
             {homepage}
+           
           </MovieHomepage>
         )}
       </InfoWrapper>

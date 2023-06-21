@@ -45,7 +45,9 @@ const ReviewsPage = () => {
         </>
       ) : (
         <>
-          <NoReviewsText>Reviews are absent</NoReviewsText>
+          <NoReviewsText>
+            Sorry, we can not find any reviews for this movie
+          </NoReviewsText>
           <BtnWrapper>
             <ButtonLink
               to={`/movies/${movieId}`}

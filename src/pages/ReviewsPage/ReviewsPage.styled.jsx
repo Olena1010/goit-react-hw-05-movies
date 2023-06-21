@@ -15,11 +15,10 @@ export const ReviewsList = styled.ul`
 
 export const NoReviewsText = styled.p`
   font-size: 22px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 15px;
+  font-weight: 600;
   text-align: center;
   padding: 10px 0 20px 0;
+  color: #ffd700;
 `;
 
 export const BtnWrapper = styled.div`

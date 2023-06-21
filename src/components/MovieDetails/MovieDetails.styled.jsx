@@ -41,7 +41,7 @@ export const VoteNum = styled.span`
   letter-spacing: 1px;
   margin-bottom: 5px;
   font-weight: 600;
-  color: #f32121;
+  color: #ffd700;
   text-shadow: 1px 0 11px rgb(255 0 0 / 90%);
 `;
 
@@ -79,3 +79,5 @@ export const MovieHomepage = styled.a`
     letter-spacing: 1px;
   }
 `;
+// IoIosFilm
+//TfiVideoClapper
