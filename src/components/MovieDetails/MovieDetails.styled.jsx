@@ -26,12 +26,14 @@ export const MovieRelease = styled.p`
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  color: #191970;
 `;
 
 export const MovieRating = styled.p`
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  
 `;
 
 export const VoteNum = styled.span`
@@ -39,12 +41,15 @@ export const VoteNum = styled.span`
   letter-spacing: 1px;
   margin-bottom: 5px;
   font-weight: 600;
+  color: #f32121;
+  text-shadow: 1px 0 11px rgb(255 0 0 / 90%);
 `;
 
 export const GenresName = styled.p`
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  
 `;
 
 export const GenresList = styled.ul`
@@ -64,12 +69,13 @@ export const MovieOverview = styled.p`
 
 export const MovieHomepage = styled.a`
   font-size: 10px;
-  letter-spacing: 1px;
   margin-top: 30px;
   color: #191970;
   &:hover {
     color: #800000;
   }
   @media screen and (min-width: 760px) {
-    font-size: 18px;}
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
 `;

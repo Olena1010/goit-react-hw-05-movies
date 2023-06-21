@@ -33,12 +33,16 @@ export const InfoWrapper = styled.div`
 `;
 
 export const MovieName = styled.h3`
-  width: 172px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 16px;
-  line-height: 20px;
-  text-shadow: -2px 4px 4px rgb(0 0 0 / 80%);
+  font-size: 14px;
+  width: 100px;
+  @media screen and (min-width: 760px) {
+    width: 172px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    text-shadow: -2px 4px 4px rgb(0 0 0 / 80%);
+  }
 `;
 
 export const Line = styled.hr`
@@ -47,9 +51,11 @@ export const Line = styled.hr`
 `;
 
 export const MovieRelease = styled.span`
-  font-size: 20px;
-  font-weight: 700;
-  // text-align: center;
+  color: #191970;
+  @media screen and (min-width: 760px) {
+    font-size: 20px;
+    font-weight: 700;
+  }
 `;
 
 export const MovieRating = styled.span`

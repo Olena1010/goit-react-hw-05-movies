@@ -33,6 +33,6 @@ export const Footer = styled.footer`
   box-shadow: 1px -10px 10px 0px rgb(70, 130, 180);
   color: #ffffff;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   overflow: hidden;
 `;
