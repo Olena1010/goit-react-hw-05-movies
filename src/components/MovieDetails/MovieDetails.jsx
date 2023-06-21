@@ -64,7 +64,6 @@ const MovieDetails = ({ movieData }) => {
         ) : (
           <MovieOverview>Overview is absent.</MovieOverview>
         )}
-        {/* <MovieOverview>{overview}</MovieOverview> */}
         {homepage && (
           <MovieHomepage href={homepage} target="_blank">
             {homepage}

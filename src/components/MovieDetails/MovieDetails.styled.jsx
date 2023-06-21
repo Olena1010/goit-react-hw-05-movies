@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const MovieWrapper = styled.div`
-  display: flex;
+ @media screen and (min-width: 760px) {  
+display: flex;}
 `;
 
 export const MoviePoster = styled.img`
@@ -62,11 +63,13 @@ export const MovieOverview = styled.p`
 `;
 
 export const MovieHomepage = styled.a`
-  font-size: 20px;
+  font-size: 10px;
   letter-spacing: 1px;
   margin-top: 30px;
   color: #191970;
   &:hover {
     color: #800000;
   }
+  @media screen and (min-width: 760px) {
+    font-size: 18px;}
 `;
