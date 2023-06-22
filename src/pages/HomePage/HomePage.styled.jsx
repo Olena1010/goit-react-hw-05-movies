@@ -14,3 +14,13 @@ export const NoMovieText = styled.p`
   text-align: center;
   color: #ed462f;
 `;
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+   svg {
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+    // padding-button: auto:
+  }
+`;

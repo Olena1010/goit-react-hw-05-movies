@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { fetchTrendingMovies } from 'services/moviesAPI';
 import { PageHeading, MoviesGallery } from '../../components/index';
-import { TextWrapper, NoMovieText } from './HomePage.styled';
+import { TextWrapper, NoMovieText, Wrapper } from './HomePage.styled';
+import { FcFilmReel } from 'react-icons/fc';
 
 const HomePage = () => {
   const [movies, setMovies] = useState(null);
@@ -12,7 +13,10 @@ const HomePage = () => {
 
   return (
     <>
-      <PageHeading text="Trending today" />
+      <Wrapper>
+        <PageHeading text="Trending today" />
+        <FcFilmReel />
+      </Wrapper>
       {movies && <MoviesGallery moviesSet={movies} />}
       {movies && movies.length === 0 && (
         <TextWrapper>
