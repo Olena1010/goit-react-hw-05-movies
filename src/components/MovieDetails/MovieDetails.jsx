@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import { TfiVideoClapper } from 'react-icons/tfi';
+import { IoIosFilm } from 'react-icons/io';
 import {
   MovieWrapper,
   MoviePoster,
@@ -8,6 +8,7 @@ import {
   MovieRelease,
   MovieRating,
   VoteNum,
+  VoteNumTo,
   GenresName,
   GenresList,
   GenresItem,
@@ -66,12 +67,12 @@ const MovieDetails = ({ movieData }) => {
           <MovieOverview>Overview is absent.</MovieOverview>
         )}
         {homepage && (
-          <MovieHomepage
-            
-            href={homepage} target="_blank">
-            {homepage}
-           
-          </MovieHomepage>
+          <VoteNumTo>
+            <IoIosFilm size={36} color="#ffd700" />
+            <MovieHomepage href={homepage} target="_blank">
+              {homepage}
+            </MovieHomepage>
+          </VoteNumTo>
         )}
       </InfoWrapper>
     </MovieWrapper>

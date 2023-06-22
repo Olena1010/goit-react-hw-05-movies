@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+
 export const MovieWrapper = styled.div`
  @media screen and (min-width: 760px) {  
 display: flex;}
@@ -44,6 +45,11 @@ export const VoteNum = styled.span`
   color: #ffd700;
   text-shadow: 1px 0 11px rgb(255 0 0 / 90%);
 `;
+export const VoteNumTo = styled.div`
+  display: flex;
+  margin-top: 10px;
+  @media screen and (min-width: 760px) {  }
+`;
 
 export const GenresName = styled.p`
   font-size: 20px;
@@ -69,15 +75,15 @@ export const MovieOverview = styled.p`
 
 export const MovieHomepage = styled.a`
   font-size: 10px;
-  margin-top: 30px;
+  margin-top: 9px;
   color: #191970;
+
   &:hover {
     color: #800000;
   }
   @media screen and (min-width: 760px) {
     font-size: 18px;
     letter-spacing: 1px;
+    margin-top: 3px;
   }
 `;
-// IoIosFilm
-//TfiVideoClapper

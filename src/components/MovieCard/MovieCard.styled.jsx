@@ -60,7 +60,6 @@ export const MovieRelease = styled.span`
 
 export const MovieRating = styled.span`
   font-size: 16px;
-  // text-align: center;
 `;
 
 export const VoteNum = styled.div`
